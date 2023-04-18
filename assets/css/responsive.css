@@ -1,0 +1,212 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 1140px !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 960px !important;
+    }
+
+    .banner_content {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .follow_area {
+        position: relative;
+        max-width: 330px;
+        gap: 25px;
+        margin: 35px 0px;
+        transform: rotate(0deg) !important;
+        bottom: 0;
+        left: 0;
+    }
+
+    .flw_icon a i{
+        transform: rotate(0deg);
+    }
+
+    .EImg01{
+        right: 423px;
+        top: 343px;
+    }
+
+    .banner_content .Cnt_info{
+        width: 58%;
+        position: relative;
+        margin-top: 60px;
+    }
+
+    .Ecnt01{
+        top: 50px;
+        left: 23rem;
+    }
+    .Ecnt02{
+        left: 212px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 720px !important;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+    .banner_content .Cnt_info .btn_area .btn{
+        font-size: 16px;
+        padding: 12px 17px;
+        margin: 28px 0px 20px 0px;
+    }
+
+    .mobile_menu{
+        display: block;
+    }
+
+    .OC_btn{
+        display: block; 
+    }
+    .btn_area{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner_content .Cnt_img .banner_img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .EImg01{
+        right: 387px;
+        top: 361px;
+    }
+
+    .EImg02{
+        right: 24px;
+        top: -105px;
+    }
+
+    .banner_content .Cnt_info{
+        width: 100%;
+        position: relative;
+        margin-top: 100px;
+    }
+
+    .banner_content .Cnt_info .title_inner h2{
+        font-size: 45px;
+    }
+
+    .banner_content .Cnt_info .title_inner .title_animation p{
+        font-size: 40px;
+    }
+
+    .banner_content .Cnt_info .title_inner .title_animation {
+        width: 100%;
+        height: 70px;
+    }
+
+    .banner_content .Cnt_info .description p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        max-width: 540px !important;
+    }
+
+    .EImg01{
+        right: 313px;
+        top: 319px;
+    }
+
+    .banner_content .Cnt_img .banner_img{
+        width: 250px;
+        height: 250px;
+    }
+
+    section{
+        position: relative;
+        padding: 261px 16px 49px 16px;
+    }
+
+    .Ecnt01 img{
+        width: 25px;
+        transform: translate(5px,-65px);
+    }
+
+    
+
+    .Ecnt01{
+        top: 50px;
+        left: 20rem;
+    }
+
+    .Ecnt02 img{
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .banner_content .Cnt_img .banner_img{
+        width: 220px;
+        height: 220px;
+    }
+
+    .EImg01{
+        right: 15rem;
+        top: 249px;
+    }
+
+    .EImg02{
+        right: 2px;
+        top: -84px;
+    }
+
+    .banner_content .Cnt_info .title_inner h2{
+        font-size: 27px;
+    }
+
+    .banner_content .Cnt_info .title_inner .title_animation p{
+        font-size: 22px;
+    }
+
+    .banner_content .Cnt_info .title_inner .title_animation {
+        height: 40px;
+    }
+
+    .banner_content .Cnt_info .description p{
+        font-size: 14px;
+    }
+
+    .btn_area .btn{
+        font-size: 15px;
+    }
+
+    .follow_area span{
+        color: #fff;
+        position: relative;
+        padding-right: 57px;
+        font-size: 15px;
+    }
+
+    .follow_area{
+        gap: 10px;
+        margin: 20px 0px;
+    }
+
+    .Ecnt01{
+        top: 55px;
+        left: 13rem;
+    }
+
+    .flw_icon{
+        gap: 12px;
+    }
+}
