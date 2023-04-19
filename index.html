@@ -7,6 +7,8 @@
   <title>My Portfolio</title>
   <link rel="stylesheet" href="./assets/css/style.css" />
   <link rel="stylesheet" href="./assets/css/responsive.css" />
+  <link rel="stylesheet" href="./assets/css/keyframes.css" />
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
 </head>
@@ -31,12 +33,12 @@
               <li class="nav_item"><a href="#CONTACT">Contact</a></li>
             </ul>
           </div>
-          <div class="btn_area">
+          <!-- <div class="btn_area">
             <button class="btn">Subscriber</button>
             <div class="OC_btn">
               <i class="fa-solid fa-bars"></i>
             </div>
-          </div>
+          </div> -->
         </nav>
 
         <!-- Moblie Header -->
@@ -89,7 +91,6 @@
               <button class="btn download_CV">
                 Download CV <i class="fa-solid fa-download"></i>
               </button>
-
             </a>
             <div class="follow_area">
               <span>Follow Me</span>
@@ -375,51 +376,163 @@
 
             <div class="projects_coright">
               <div class="project_item">
-                <div class="project_item_content">
+                <div class="project_item_container">
                   <div class="project_item_img">
                     <img src="./assets/img/covid.png" alt="">
                   </div>
-                  <h2>WEB COVID</h2>
-                  <p>anbcbdcbdhcbdjh</p>
+                  <div class="project_item_content">
+                    <h2>WEB COVID</h2>
+                    <p>A COVID-19 Web App final project for the Web Development class at HCMUS</p>
+                    <div class="btn_area">
+                      <button class="btn project_covid">See More <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                  </div>
                 </div>
               </div>
 
               <div class="project_item">
-                <div class="project_item_content">
+                <div class="project_item_container">
                   <div class="project_item_img">
                     <img src="./assets/img/binsmart.png" alt="">
                   </div>
-                  <h2>BIN SMART</h2>
-                  <p>anbcbdcbdhcbdjh</p>
+                  <div class="project_item_content">
+                    <h2>BIN SMART</h2>
+                    <p>anbcbdcbdhcbdjh</p>
+                    <div class="btn_area">
+                      <button class="btn project_binsmart">See More <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                  </div>
                 </div>
               </div>
 
               <div class="project_item">
-                <div class="project_item_content">
+                <div class="project_item_container">
                   <div class="project_item_img">
                     <img src="./assets/img/laca.png" alt="">
                   </div>
-                  <h2>CAFE MANAGEMENT</h2>
-                  <p>anbcbdcbdhcbdjh</p>
+                  <div class="project_item_content">
+                    <h2>CAFE MANAGEMENT</h2>
+                    <p>anbcbdcbdhcbdjh</p>
+                    <div class="btn_area">
+                      <button class="btn project_cafe">See More <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                  </div>
                 </div>
               </div>
 
               <div class="project_item">
-                <div class="project_item_content">
+                <div class="project_item_container">
                   <div class="project_item_img">
                     <img src="./assets/img/foodorder.png" alt="">
                   </div>
-                  <h2>FOOD ORDERING</h2>
-                  <p>anbcbdcbdhcbdjh</p>
+                  <div class="project_item_content">
+                    <h2>FOOD ORDERING</h2>
+                    <p>anbcbdcbdhcbdjh</p>
+                    <div class="btn_area">
+                      <button class="btn project_foodorder">See More <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                  </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- space -->
+        <div class="space">
+          <i class="fa-solid fa-diamond"></i>
+        </div>
+
+        <!-- Contact -->
+        <div id="CONTACT" class="banner_contact">
+          <div class="space">
+            <i class="fa-solid fa-diamond noneIcon"></i>
+          </div>
+          <div class="contact_container">
+            <h1 class="h1_title_Contact contact_h1">Contact <span>Me</span></h1>
+            <h1 class="h1_title_Contact contact_h1_sub">Have question? Get in touch</h1>
+            <div class="contact_content">
+              <div class="contact_item">
+                <div class="contact_item_icon">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="contact_item_content">
+                  <h2>Phone</h2>
+                  <p>+84-912-876-198</p>
+                </div>
+              </div>
+
+              <div class="contact_item">
+                <div class="contact_item_icon">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="contact_item_content">
+                  <h2>Email</h2>
+                  <p>thieuvinhtrung4123@gmail.com</p>
+                </div>
+              </div>
+
+              <div class="contact_item">
+                <div class="contact_item_icon">
+                  <i class="fa-solid fa-location-crosshairs"></i>
+                </div>
+                <div class="contact_item_content">
+                  <h2>Address</h2>
+                  <p>Khu Trung Sơn, Thành phố Hồ Chí Minh</p>
+                  <div class="viewOnGG">
+                    <span>View on Google Map</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="contact_content contact_content_bottom">
+              <div class="contact_img">
+                <img src="./assets/img/contact.png" alt="">
+              </div>
+              <div class="contact_input_wrapper">
+                <form action="">
+                  <div class="contact_input">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" placeholder="Name">
+                  </div>
+                  <div class="contact_input">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="text" placeholder="Email">
+                  </div>
+                  <div class="contact_input">
+                    <i class="fa-solid fa-message"></i>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                  </div>
+                  <div class="btn_area">
+                    <button class="btn">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                  </div>
+                  
+                </form>
               </div>
             </div>
           </div>
 
         </div>
 
+        <div class="class_blur">
+
+        </div>
+
+        <div class="iframe_map">
+          <div class="btn close_iframe"><i class="fa-solid fa-rectangle-xmark"></i></div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7839.980703480166!2d106.68264263380973!3d10.735226655230798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752fa4d0ecc92f%3A0x8b8f57b85e977ed3!2zS2h1IGTDom4gY8awIFRydW5nIFPGoW4sIELDrG5oIEjGsG5nLCBCw6xuaCBDaMOhbmgsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1681911458903!5m2!1svi!2s"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
     </section>
   </main>
+
+  <footer>
+
+  </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
