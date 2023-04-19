@@ -998,6 +998,12 @@ nav .logo a img {
 
 .contact_content_bottom{
     margin-top: 150px;
+    opacity: 0;
+}
+
+.contact_content_bottom.active{
+    opacity: 1;
+    animation: zoomout 1.4s;
 }
 .contact_img{
     width: 100%;

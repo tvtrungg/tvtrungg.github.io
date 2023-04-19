@@ -134,6 +134,14 @@ $(window).scroll(function () {
 	}
 });
 
+$(window).scroll(function () {
+	if ($(this).scrollTop() > 2900) {
+		$('.contact_content_bottom').addClass('active');
+	} else {
+		$('.contact_content_bottom').removeClass('active');
+	}
+});
+
 
 /*Display iFrame */
 
