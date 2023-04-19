@@ -19,6 +19,24 @@
     }
 }
 
+@keyframes leftTOright{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+@keyframes rightTOleft{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
 @keyframes display {
     0% {
         opacity: 0;
@@ -72,7 +90,6 @@
         --rotate: 360deg;
     }
 }
-
 
 @keyframes E01i {
     0% {

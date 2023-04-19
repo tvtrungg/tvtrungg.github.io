@@ -74,26 +74,6 @@ VanillaTilt.init(document.querySelectorAll(".box"), {
 });
 
 
-/*HOTEL NEWS*/
-/*Khi scroll đến thì mới hiện ra, bình thường sẽ ẩn đi*/
-$(document).ready(function () {
-	$(".skill_content").slick({
-		dots: true,
-		infinite: true,
-		speed: 300,
-		slidesToShow: 1,
-		slidesToScroll: 2,
-		adaptiveHeight: true,
-		// autoplay: true,
-		// autoplaySpeed: 3000,
-		// speed: 1000,
-		arrows: true,
-		prevArrow: '<button type="button" class="slick-prev_suites"><ion-icon name="arrow-back-outline"></ion-icon></button>',
-		nextArrow: '<button type="button" class="slick-next_suites"><ion-icon name="arrow-forward-outline"></ion-icon></button>',
-
-	});
-});
-
 $(window).scroll(function () {
 	if ($(this).scrollTop() > 230) {
 		$('.banner_about').addClass('active');

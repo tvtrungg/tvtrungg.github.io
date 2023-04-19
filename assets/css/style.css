@@ -547,8 +547,6 @@ nav .logo a img {
 
 .banner_about .about_img {
     flex-basis: 38%;
-    transition: transform 1.8s ease;
-    transform: translateX(-100%);
 }
 
 .banner_about .about_img img {
@@ -558,7 +556,6 @@ nav .logo a img {
 .banner_about .about_content {
     flex-basis: 53%;
     transition: transform 1.8s ease;
-    transform: translateX(100%);
 }
 
 .banner_about.active {
@@ -566,12 +563,11 @@ nav .logo a img {
 }
 
 .banner_about.active .about_img {
-    transform: translateX(0%);
+    animation: leftTOright 1.8s ease;
 }
 
 .banner_about.active .about_content {
-    /* set new transform value when active class is added */
-    transform: translateX(0%);
+    animation: rightTOleft 1.8s ease;
 }
 
 .banner_about .about_content h2 {
