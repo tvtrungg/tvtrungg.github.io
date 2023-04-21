@@ -172,9 +172,12 @@ $(document).ready(function () {
 					'Your message has been sent <b style="color:green;">successfully</b>',
 					'success'
 				)
-				$('#myForm')[0].reset();
 			}
 		});
-		return false;
+		return false;		// avoid to execute the actual submit of the form.
+	});
+
+	$('.btn_submitForm').click(function () {
+		$('#myForm')[0].reset();
 	});
 });
