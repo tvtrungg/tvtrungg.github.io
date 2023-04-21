@@ -137,3 +137,44 @@ $('.close_iframe').click(function () {
 	$('body').removeClass('hidden');
 
 });
+
+
+/*Send mail */
+$('.btn_submitForm').click(function () {
+	console.log("name: " + $('.input_name').val() + " email: " + $('.input_email').val() + " message: " + $('.input_message').val());
+	if ($('.input_name').val() == '' || $('.input_email').val() == '' || $('.input_message').val() == '') {
+		swal(
+			'Warning!',
+			'Please <b style="color:coral;">complete</b> all information !!!',
+			'warning'
+		)
+	}
+	else {
+		swal(
+			'Success',
+			'Your message has been sent <b style="color:green;">successfully</b>',
+			'success'
+		)
+	}
+});
+
+
+
+$(document).ready(function () {
+	$("#myForm").submit(function () {
+		$.ajax({
+			type: "POST",
+			url: "https://formspree.io/f/xdovygbv",
+			data: $(this).serialize(),
+			success: function (data) {
+				swal(
+					'Success',
+					'Your message has been sent <b style="color:green;">successfully</b>',
+					'success'
+				)
+				$('#myForm')[0].reset();
+			}
+		});
+		return false;
+	});
+});

@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
+  <title>Portfolio</title>
   <link rel="stylesheet" href="./assets/css/style.css" />
   <link rel="stylesheet" href="./assets/css/responsive.css" />
   <link rel="stylesheet" href="./assets/css/keyframes.css" />
@@ -158,11 +158,11 @@
                 <div class="education_item">
                   <h3>Achievements</h3>
                   <div>
-                    <p><i class="fa-solid fa-circle-check checkicon"></i>
+                    <p><i class="fa-solid fa-circle-check checkIcon"></i>
                       Bachelor's program in association with Université
                       Claude Bernard Lyon 1
                     </p>
-                    <p><i class="fa-solid fa-circle-check checkicon"></i> Current GPA:<span> 3.12/4.0</span></p>
+                    <p><i class="fa-solid fa-circle-check checkIcon"></i> Current GPA:<span> 3.12/4.0</span></p>
                   </div>
                 </div>
 
@@ -171,21 +171,21 @@
                   <div class="certificates">
                     <div class="certificates_item">
                       <p>
-                        <i class="fa-solid fa-circle-check checkicon"></i>
+                        <i class="fa-solid fa-certificate certificateIcon"></i>
                         HTML & CSS from F8
                       </p>
                       <p>30/01/2023</p>
                     </div>
                     <div class="certificates_item">
                       <p>
-                        <i class="fa-solid fa-circle-check checkicon"></i>
+                        <i class="fa-solid fa-certificate certificateIcon"></i>
                         Basic Javascript from F8
                       </p>
                       <p>07/03/2023</p>
                     </div>
                     <div class="certificates_item">
                       <p>
-                        <i class="fa-solid fa-circle-check checkicon"></i>
+                        <i class="fa-solid fa-certificate certificateIcon"></i>
                         ReactJS from F8
                       </p>
                       <p>03/03/2023</p>
@@ -198,14 +198,14 @@
                   <div class="languages">
                     <div class="languages_item">
                       <p>
-                        <i class="fa-solid fa-circle-check checkicon"></i>
+                        <i class="fa-solid fa-circle-check checkIcon"></i>
                         FRENCH
                       </p>
                       <p>Intermediate</p>
                     </div>
                     <div class="languages_item">
                       <p>
-                        <i class="fa-solid fa-circle-check checkicon"></i>
+                        <i class="fa-solid fa-circle-check checkIcon"></i>
                         ENGLISH
                       </p>
                       <p>Intermediate</p>
@@ -312,10 +312,22 @@
 
               <figure class="skill_item">
                 <div class="skill_item_img">
-                  <img src="./assets/img/sql.png" alt="Portfolio Item">
+                  <img src="./assets/img/com.png" alt="Portfolio Item">
                 </div>
                 <figcaption class="skill_description">
-                  <h3>SQL</h3>
+                  <h3>Conmmunication</h3>
+                  <div class="skill_bar">
+                    <div class="skill_level skill_70">70%</div>
+                  </div>
+                </figcaption>
+              </figure>
+
+              <figure class="skill_item">
+                <div class="skill_item_img">
+                  <img src="./assets/img/mogo.png" alt="Portfolio Item">
+                </div>
+                <figcaption class="skill_description">
+                  <h3>Mongo DB</h3>
                   <div class="skill_bar">
                     <div class="skill_level skill_60">60%</div>
                   </div>
@@ -324,22 +336,10 @@
 
               <figure class="skill_item">
                 <div class="skill_item_img">
-                  <img src="./assets/img/sql.png" alt="Portfolio Item">
+                  <img src="./assets/img/Figma.png" alt="Portfolio Item">
                 </div>
                 <figcaption class="skill_description">
-                  <h3>SQL</h3>
-                  <div class="skill_bar">
-                    <div class="skill_level skill_60">60%</div>
-                  </div>
-                </figcaption>
-              </figure>
-
-              <figure class="skill_item">
-                <div class="skill_item_img">
-                  <img src="./assets/img/sql.png" alt="Portfolio Item">
-                </div>
-                <figcaption class="skill_description">
-                  <h3>SQL</h3>
+                  <h3>Figma</h3>
                   <div class="skill_bar">
                     <div class="skill_level skill_60">60%</div>
                   </div>
@@ -356,6 +356,7 @@
           <i class="fa-solid fa-diamond"></i>
         </div>
 
+        <!-- PROJECTS -->
         <div id="PROJECTS" class="banner_projects">
           <div class="space">
             <i class="fa-solid fa-diamond noneIcon"></i>
@@ -394,7 +395,7 @@
                   </div>
                   <div class="project_item_content">
                     <h2>BIN SMART</h2>
-                    <p>anbcbdcbdhcbdjh</p>
+                    <p>A final project on Bin Smart IoT class products at HCMUS</p>
                     <div class="btn_area">
                       <button class="btn project_binsmart">See More <i class="fa-solid fa-arrow-right"></i></button>
                     </div>
@@ -409,7 +410,7 @@
                   </div>
                   <div class="project_item_content">
                     <h2>CAFE MANAGEMENT</h2>
-                    <p>anbcbdcbdhcbdjh</p>
+                    <p>Cafe management application</p>
                     <div class="btn_area">
                       <button class="btn project_cafe">See More <i class="fa-solid fa-arrow-right"></i></button>
                     </div>
@@ -424,7 +425,7 @@
                   </div>
                   <div class="project_item_content">
                     <h2>FOOD ORDERING</h2>
-                    <p>anbcbdcbdhcbdjh</p>
+                    <p>ABC fast food ordering and delivery website</p>
                     <div class="btn_area">
                       <button class="btn project_foodorder">See More <i class="fa-solid fa-arrow-right"></i></button>
                     </div>
@@ -487,23 +488,22 @@
                 <img src="./assets/img/contact.png" alt="">
               </div>
               <div class="contact_input_wrapper">
-                <form action="">
+                <form id="myForm">
                   <div class="contact_input">
                     <i class="fa-solid fa-user"></i>
-                    <input type="text" placeholder="Name">
+                    <input class="input_name" type="text" name="name" placeholder="Name" required>
                   </div>
                   <div class="contact_input">
                     <i class="fa-solid fa-envelope"></i>
-                    <input type="text" placeholder="Email">
+                    <input class="input_email" type="email" name="email" placeholder="Email" required>
                   </div>
                   <div class="contact_input">
                     <i class="fa-solid fa-message"></i>
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <textarea class="input_message" name="message" id="" cols="30" rows="10" placeholder="Message" required></textarea>
                   </div>
                   <div class="btn_area">
-                    <button class="btn">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                    <button type="submit" class="btn btn_submitForm">Send Message <i class="fa-solid fa-paper-plane"></i></button>
                   </div>
-                  
                 </form>
               </div>
             </div>
@@ -523,6 +523,7 @@
             referrerpolicy="no-referrer-when-downgrade">
           </iframe>
         </div>
+
       </div>
     </section>
   </main>
@@ -534,6 +535,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.all.min.js"></script>
   <script src="./assets/script/script.js"></script>
   <script src="./assets/script/animation.js"></script>
 </body>
