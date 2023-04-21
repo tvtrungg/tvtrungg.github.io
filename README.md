@@ -1,3 +1,3 @@
 # tvtrungg.github.io
 
-My portfolio
+My portfolio is built using HTML, CSS and JS
