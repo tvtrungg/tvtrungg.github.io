@@ -178,6 +178,8 @@ $(document).ready(function () {
 	});
 
 	$('.btn_submitForm').click(function () {
-		$('#myForm')[0].reset();
+		setTimeout(function () {
+			$('#myForm')[0].reset();
+		}, 1000);
 	});
 });
