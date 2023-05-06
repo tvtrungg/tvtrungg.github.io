@@ -20,6 +20,10 @@
     --text01: #a8a8a8;
     --checkIcon: #00d700;
     --certificateIcon: #ff0000;
+    --size_p1200px: 17px;
+    --h1_container1200px: 40px;
+    --size_p992px: 15px;
+    --h1_container992px: 35px;
 }
 
 * {
@@ -125,7 +129,7 @@ nav .logo a img {
     z-index: 1;
     outline: none;
     font-weight: 600;
-    font-size: 16px;
+    font-size: var(--size_p1200px);
     font-family: 'Poppins';
 }
 
@@ -135,7 +139,7 @@ nav .logo a img {
     padding: 10px 24px;
     display: flex;
     align-items: center;
-    font-size: 16px;
+    font-size: var(--size_p1200px);
     text-align: center;
     border-radius: 50px;
     background: var(--bg06);
@@ -342,12 +346,12 @@ nav .logo a img {
 
 
 .banner_content .Cnt_info .description p {
-    font-size: 17px;
+    font-size: var(--size_p1200px);
     color: var(--text01);
 }
 
 .banner_content .Cnt_info .btn_area .btn {
-    font-size: 18px;
+    font-size: var(--size_p1200px);
     padding: 15px 20px;
     margin: 45px 0px 20px 0px;
     cursor: pointer;
@@ -486,7 +490,7 @@ nav .logo a img {
 .follow_area span {
     color: var(--bg02);
     position: relative;
-    font-size: 17px;
+    font-size: var(--size_p1200px);
     padding-right: 72px;
     font-weight: 600;
 }
@@ -527,7 +531,7 @@ nav .logo a img {
 
 /* ABOUT */
 .container h1 {
-    font-size: 40px;
+    font-size: var(--h1_container1200px);
     font-weight: bold;
     color: var(--bg02);
     margin-bottom: 55px;
@@ -621,7 +625,7 @@ nav .logo a img {
 
 
 .banner_about .about_content p {
-    font-size: 17px;
+    font-size: var(--size_p1200px);
     font-weight: 400;
     color: var(--text01);
     margin: 0 15px 5px 0;
@@ -792,7 +796,7 @@ nav .logo a img {
 }
 
 .projects_container p {
-    font-size: 18px;
+    font-size: var(--size_p1200px);
     font-weight: 400;
     color: var(--text01);
 }
@@ -1049,7 +1053,6 @@ nav .logo a img {
     font-size: 15px;
     font-weight: 400;
     margin-left: 11px;
-    width: 90%;
 }
 
 .contact_input_wrapper form .contact_input textarea {

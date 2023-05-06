@@ -15,6 +15,10 @@
         align-items: center;
     }
 
+    .banner_content .Cnt_img {
+        justify-content: center;
+    }
+
     .follow_area {
         position: relative;
         max-width: 330px;
@@ -22,30 +26,95 @@
         margin: 35px 0px;
         transform: rotate(0deg) !important;
         bottom: 0;
-        left: 0;
+        left: 85px;
     }
 
-    .flw_icon a i{
+    .flw_icon a i {
         transform: rotate(0deg);
     }
 
-    .EImg01{
+    .EImg01 {
         right: 423px;
         top: 343px;
     }
 
-    .banner_content .Cnt_info{
+    .banner_content .Cnt_info {
         width: 58%;
         position: relative;
         margin-top: 60px;
     }
 
-    .Ecnt01{
+    .banner_content .Cnt_info .btn_area .btn {
+        margin: 0 auto;
+    }
+
+    .Ecnt01 {
         top: 50px;
         left: 23rem;
     }
-    .Ecnt02{
-        left: 212px;
+
+    .Ecnt02 {
+        bottom: -5px;
+        right: 8px;
+    }
+
+    .Ecnt02 img {
+        width: 45px !important;
+
+    }
+
+    .btn_area .btn,
+    .banner_content .Cnt_info .description p,
+    .banner_content .Cnt_info .btn_area .btn,
+    .follow_area span,
+    .banner_about .about_content p,
+    .projects_container p {
+        font-size: var(--size_p992px);
+    }
+
+    .banner_about .about_content h3 {
+        font-size: 19px;
+    }
+
+    .banner_about .about_img img {
+        width: 100%;
+    }
+
+    .skill_item:last-child {
+        transform: translateX(115px);
+    }
+
+    .container h1 {
+        font-size: var(--h1_container992px);
+    }
+
+    /* PROJECT */
+    .h1_title_Projects {
+        margin-bottom: 30px!important;
+    }
+
+    .banner_projects .projects_coright {
+        flex-basis: 60%;
+    }
+
+    .project_item {
+        width: 203px;
+        height: 203px;
+    }
+
+    .project_item_container {
+        width: 200px;
+        height: 200px;
+    }
+    .project_item_content h2{
+        font-size: 15px;
+    }
+
+    .project_item_content p {
+        font-size: 13px;
+    }
+    .project_item .project_item_img{
+        height: 33%;
     }
 }
 
@@ -54,55 +123,56 @@
         max-width: 720px !important;
     }
 
-    .navbar{
+    .navbar {
         display: none;
     }
 
-    .banner_content .Cnt_info .btn_area .btn{
+    .banner_content .Cnt_info .btn_area .btn {
         font-size: 16px;
         padding: 12px 17px;
         margin: 28px 0px 20px 0px;
     }
 
-    .mobile_menu{
+    .mobile_menu {
         display: block;
     }
 
-    .OC_btn{
-        display: block; 
+    .OC_btn {
+        display: block;
     }
-    .btn_area{
+
+    .btn_area {
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    .banner_content .Cnt_img .banner_img{
+    .banner_content .Cnt_img .banner_img {
         width: 300px;
         height: 300px;
     }
 
-    .EImg01{
+    .EImg01 {
         right: 387px;
         top: 361px;
     }
 
-    .EImg02{
+    .EImg02 {
         right: 24px;
         top: -105px;
     }
 
-    .banner_content .Cnt_info{
+    .banner_content .Cnt_info {
         width: 100%;
         position: relative;
         margin-top: 100px;
     }
 
-    .banner_content .Cnt_info .title_inner h2{
+    .banner_content .Cnt_info .title_inner h2 {
         font-size: 45px;
     }
 
-    .banner_content .Cnt_info .title_inner .title_animation p{
+    .banner_content .Cnt_info .title_inner .title_animation p {
         font-size: 40px;
     }
 
@@ -111,7 +181,7 @@
         height: 70px;
     }
 
-    .banner_content .Cnt_info .description p{
+    .banner_content .Cnt_info .description p {
         font-size: 16px;
     }
 }
@@ -121,59 +191,59 @@
         max-width: 540px !important;
     }
 
-    .EImg01{
+    .EImg01 {
         right: 313px;
         top: 319px;
     }
 
-    .banner_content .Cnt_img .banner_img{
+    .banner_content .Cnt_img .banner_img {
         width: 250px;
         height: 250px;
     }
 
-    section{
+    section {
         position: relative;
         padding: 261px 16px 49px 16px;
     }
 
-    .Ecnt01 img{
+    .Ecnt01 img {
         width: 25px;
-        transform: translate(5px,-65px);
+        transform: translate(5px, -65px);
     }
 
-    
 
-    .Ecnt01{
+
+    .Ecnt01 {
         top: 50px;
         left: 20rem;
     }
 
-    .Ecnt02 img{
+    .Ecnt02 img {
         width: 30px;
     }
 }
 
 @media screen and (max-width: 460px) {
-    .banner_content .Cnt_img .banner_img{
+    .banner_content .Cnt_img .banner_img {
         width: 220px;
         height: 220px;
     }
 
-    .EImg01{
+    .EImg01 {
         right: 15rem;
         top: 249px;
     }
 
-    .EImg02{
+    .EImg02 {
         right: 2px;
         top: -84px;
     }
 
-    .banner_content .Cnt_info .title_inner h2{
+    .banner_content .Cnt_info .title_inner h2 {
         font-size: 27px;
     }
 
-    .banner_content .Cnt_info .title_inner .title_animation p{
+    .banner_content .Cnt_info .title_inner .title_animation p {
         font-size: 22px;
     }
 
@@ -181,32 +251,32 @@
         height: 40px;
     }
 
-    .banner_content .Cnt_info .description p{
+    .banner_content .Cnt_info .description p {
         font-size: 14px;
     }
 
-    .btn_area .btn{
+    .btn_area .btn {
         font-size: 15px;
     }
 
-    .follow_area span{
+    .follow_area span {
         color: #fff;
         position: relative;
         padding-right: 57px;
         font-size: 15px;
     }
 
-    .follow_area{
+    .follow_area {
         gap: 10px;
         margin: 20px 0px;
     }
 
-    .Ecnt01{
+    .Ecnt01 {
         top: 55px;
         left: 13rem;
     }
 
-    .flw_icon{
+    .flw_icon {
         gap: 12px;
     }
 }

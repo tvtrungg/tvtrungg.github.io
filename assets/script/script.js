@@ -51,9 +51,6 @@ $('.project_foodorder').click(function () {
 });
 
 
-
-
-
 // btn open/close
 $('.OC_btn').click(function () {
 	$('.mobile_menu').toggleClass('active');
