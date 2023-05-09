@@ -22,8 +22,12 @@
     --certificateIcon: #ff0000;
     --size_p1200px: 17px;
     --h1_container1200px: 40px;
+
     --size_p992px: 15px;
     --h1_container992px: 35px;
+
+    --size_p440px: 11px;
+    --h1_container440px: 25px;
 }
 
 * {

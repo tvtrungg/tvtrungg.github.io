@@ -224,6 +224,9 @@
 }
 
 @media screen and (max-width: 460px) {
+    .container {
+        max-width: 390px !important;
+    }
     .banner_content .Cnt_img .banner_img {
         width: 220px;
         height: 220px;
@@ -255,6 +258,14 @@
         font-size: 14px;
     }
 
+    .banner_content .Cnt_info .btn_area .btn{
+        margin: 28px 0px 20px 30px;
+    }
+
+    .btn_area{
+        display: block;
+    }
+
     .btn_area .btn {
         font-size: 15px;
     }
@@ -269,6 +280,7 @@
     .follow_area {
         gap: 10px;
         margin: 20px 0px;
+        left: -53px;
     }
 
     .Ecnt01 {
@@ -276,7 +288,49 @@
         left: 13rem;
     }
 
+    .Ecnt02{
+        left: 200px;
+        bottom: -30px;
+    }
+    .Ecnt01 img{
+        width: 30px;
+    }
+    .Ecnt02 img{
+        width: 38px;
+    }
+
     .flw_icon {
         gap: 12px;
+    }
+    .skill_item:last-child{
+        transform: translateX(0px);
+    }
+
+    .btn_area .btn,
+    .banner_content .Cnt_info .description p,
+    .banner_content .Cnt_info .btn_area .btn,
+    .follow_area span,
+    .banner_about .about_content p,
+    .projects_container p {
+        font-size: var(--size_p440px);
+    }
+
+    .container h1 {
+        font-size: var(--h1_container440px);
+    }
+
+    .banner_about .about_content h2{
+        font-size: 22px;
+    }
+
+    .banner_about .about_content h3{
+        font-size: 15px;
+    }
+
+    .about_education .education_item .languages_item{
+        width: 150px;
+    }
+    .banner_about .about_content .about_education .education_item{
+        flex-basis: 45%;
     }
 }
