@@ -897,7 +897,6 @@ nav .logo a img {
 }
 
 .contact_container .contact_h1 {
-    font-size: 30px;
     font-weight: 600;
     color: var(--bg02);
     margin-bottom: 20px;
@@ -905,7 +904,6 @@ nav .logo a img {
 
 .contact_container .contact_h1_sub {
     text-transform: capitalize;
-    font-size: 40px;
     background-image: var(--bg06d);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

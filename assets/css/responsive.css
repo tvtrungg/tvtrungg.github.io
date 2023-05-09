@@ -90,7 +90,7 @@
 
     /* PROJECT */
     .h1_title_Projects {
-        margin-bottom: 30px!important;
+        margin-bottom: 30px !important;
     }
 
     .banner_projects .projects_coright {
@@ -106,14 +106,16 @@
         width: 200px;
         height: 200px;
     }
-    .project_item_content h2{
+
+    .project_item_content h2 {
         font-size: 15px;
     }
 
     .project_item_content p {
         font-size: 13px;
     }
-    .project_item .project_item_img{
+
+    .project_item .project_item_img {
         height: 33%;
     }
 }
@@ -225,8 +227,17 @@
 
 @media screen and (max-width: 460px) {
     .container {
-        max-width: 390px !important;
+        max-width: 380px !important;
     }
+
+    section {
+        padding: 221px 0 49px 0;
+    }
+
+    .banner_content .Cnt_img {
+        justify-content: flex-end;
+    }
+
     .banner_content .Cnt_img .banner_img {
         width: 220px;
         height: 220px;
@@ -258,11 +269,11 @@
         font-size: 14px;
     }
 
-    .banner_content .Cnt_info .btn_area .btn{
+    .banner_content .Cnt_info .btn_area .btn {
         margin: 28px 0px 20px 30px;
     }
 
-    .btn_area{
+    .btn_area {
         display: block;
     }
 
@@ -288,24 +299,28 @@
         left: 13rem;
     }
 
-    .Ecnt02{
+    .Ecnt02 {
         left: 200px;
         bottom: -30px;
     }
-    .Ecnt01 img{
+
+    .Ecnt01 img {
         width: 30px;
     }
-    .Ecnt02 img{
+
+    .Ecnt02 img {
         width: 38px;
     }
 
     .flw_icon {
         gap: 12px;
     }
-    .skill_item:last-child{
+
+    .skill_item:last-child {
         transform: translateX(0px);
     }
 
+    .contact_content .contact_item .contact_item_content,
     .btn_area .btn,
     .banner_content .Cnt_info .description p,
     .banner_content .Cnt_info .btn_area .btn,
@@ -319,18 +334,45 @@
         font-size: var(--h1_container440px);
     }
 
-    .banner_about .about_content h2{
+    .skills_container,
+    .about_container {
+        flex-direction: column;
+    }
+
+    .banner_about .about_content h2 {
         font-size: 22px;
     }
 
-    .banner_about .about_content h3{
+    .banner_about .about_content h3 {
         font-size: 15px;
     }
 
-    .about_education .education_item .languages_item{
+    .about_education .education_item .languages_item {
         width: 150px;
     }
-    .banner_about .about_content .about_education .education_item{
-        flex-basis: 45%;
+
+    .banner_about .about_content {
+        flex-basis: 55%;
+    }
+
+    .banner_about .about_content .about_education .education_item {
+        flex-grow: 1;
+    }
+
+    .skills_container .skill_img,
+    .banner_about .about_img img {
+        display: none;
+    }
+
+    .banner_about .about_content h2 {
+        text-align: center;
+        background: linear-gradient(25deg, #ff00ea, #2600fc 77%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .skill_item{
+        height: 55px;
+        width: 90px;
     }
 }
