@@ -103,6 +103,9 @@
     }
 
     /* PROJECT */
+    .banner_projects .projects_coright {
+        flex-basis: 60%;
+    }
     .h1_title_Projects {
         margin-bottom: 30px !important;
     }
@@ -278,7 +281,9 @@
     .project_item{
         width: 170px;
     }
-
+    .banner_projects .projects_coright {
+        flex-basis: 60%;
+    }
     .projects_coleft h1,
     .projects_coleft p{
         transform: translateY(3x0px);

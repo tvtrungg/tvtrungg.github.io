@@ -812,7 +812,7 @@ nav .logo a img {
 }
 
 .banner_projects .projects_coright {
-    flex-basis: 60%;
+    flex-basis: 45%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
