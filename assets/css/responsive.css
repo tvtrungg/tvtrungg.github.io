@@ -44,6 +44,15 @@
         margin-top: 60px;
     }
 
+    .banner_content .Cnt_info .title_inner h2{
+        text-align: center;
+        font-size: 48px;
+    }
+
+    .banner_content .Cnt_info .title_inner .title_animation{
+        text-align: center;
+    }
+
     .banner_content .Cnt_info .btn_area .btn {
         margin: 0 auto;
     }
@@ -61,6 +70,10 @@
     .Ecnt02 img {
         width: 45px !important;
 
+    }
+
+    .about_education .education_item .languages_item{
+        width: 200px;
     }
 
     .btn_area .btn,
@@ -84,6 +97,7 @@
         transform: translateX(115px);
     }
 
+    .banner_content .Cnt_info .title_inner .title_animation p,
     .container h1 {
         font-size: var(--h1_container992px);
     }
@@ -118,11 +132,43 @@
     .project_item .project_item_img {
         height: 33%;
     }
+
+    /*SKILL*/
+    .skills_container .skill_img{
+        flex-basis: 60%;
+    }
+    .skill_item{
+        transform: translateY(35px);
+        width: 35%;
+    }
+
+    .skill_item:nth-child(5),
+    .skill_item:nth-child(6){
+        transform: translate(-380px,35px);
+    }
+
+    .skill_item:nth-child(7),
+    .skill_item:nth-child(8){
+        transform: translate(0px,-80px);
+    }
+    .skill_item:last-child{
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
     .container {
         max-width: 720px !important;
+    }
+
+    .btn_area .btn,
+    .banner_content .Cnt_info .description p,
+    .banner_content .Cnt_info .btn_area .btn,
+    .follow_area span,
+    .banner_about .about_content p,
+    .projects_container p {
+        font-size: var(--size_p768px);
     }
 
     .navbar {
@@ -133,10 +179,6 @@
         font-size: 16px;
         padding: 12px 17px;
         margin: 28px 0px 20px 0px;
-    }
-
-    .mobile_menu {
-        display: block;
     }
 
     .OC_btn {
@@ -154,6 +196,11 @@
         height: 300px;
     }
 
+    .Ecnt01{
+        top: 46px;
+        left: 29rem;
+    }
+
     .EImg01 {
         right: 387px;
         top: 361px;
@@ -167,7 +214,7 @@
     .banner_content .Cnt_info {
         width: 100%;
         position: relative;
-        margin-top: 100px;
+        margin-top: 50px;
     }
 
     .banner_content .Cnt_info .title_inner h2 {
@@ -185,6 +232,56 @@
 
     .banner_content .Cnt_info .description p {
         font-size: 16px;
+    }
+
+
+    /*EDUCATION*/
+    .banner_about .about_content .about_education{
+        margin-top: 30px;
+    }
+    .about_education .education_item:nth-child(1){
+        transform: translateX(-65px);
+    }
+    .about_education .education_item:nth-child(2){
+        transform: translateX(-85px);
+    }
+
+    .about_education .education_item:nth-child(3){
+        transform: translate(-255px, -183px);   
+    }
+
+    .about_education .education_item:last-child{
+        transform: translate(242px, -377px);
+    }
+
+    .education_item .languages_item p:last-child{
+        display: none;
+    }
+
+    /*SKILL*/
+    .skill_item{
+        width: 42%;
+        transform: translateY(0);
+    }
+    .skill_item:nth-child(5),
+    .skill_item:nth-child(6){
+        transform: translate(-340px, 0);
+    }
+
+    .skill_item:nth-child(7),
+    .skill_item:nth-child(8){
+        transform: translate(0px,-115px);
+    }
+
+    /*PROJECT*/
+    .project_item_container,
+    .project_item{
+        width: 170px;
+    }
+
+    .projects_coleft h1,
+    .projects_coleft p{
+        transform: translateY(3x0px);
     }
 }
 

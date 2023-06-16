@@ -25,6 +25,9 @@
 
     --size_p992px: 15px;
     --h1_container992px: 35px;
+    
+    --size_p768px: 13px;
+    --h1_container768px: 33px;
 
     --size_p440px: 11px;
     --h1_container440px: 25px;
@@ -49,7 +52,7 @@ input {
 
 body {
     background-color: var(--bg01);
-}
+}   
 
 body.hidden {
     overflow: hidden;
@@ -183,7 +186,7 @@ nav .logo a img {
 .active {
     right: 0;
     transform: translate(0);
-    /* display: none; */
+    display: block;
 }
 
 .mobile_menu .mobile_nav {
@@ -554,7 +557,6 @@ nav .logo a img {
 .about_container {
     display: flex;
     justify-content: space-around;
-    align-items: center;
 }
 
 
@@ -810,7 +812,7 @@ nav .logo a img {
 }
 
 .banner_projects .projects_coright {
-    flex-basis: 45%;
+    flex-basis: 60%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -1033,6 +1035,7 @@ nav .logo a img {
 }
 
 .contact_input_wrapper form .contact_input {
+    display: flex;
     width: 100%;
     background-color: var(--bg01);
     color: var(--bg02);
@@ -1066,8 +1069,7 @@ nav .logo a img {
     font-size: 15px;
     font-weight: 400;
     resize: none;
-    padding: 10px;
-    padding-left: 35px;
-    transform: translateY(-45px);
+    margin-top: 15px;
+    padding-left: 10px;
 }
 
