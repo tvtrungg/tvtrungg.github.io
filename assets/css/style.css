@@ -27,10 +27,14 @@
     --h1_container992px: 35px;
     
     --size_p768px: 13px;
-    --h1_container768px: 33px;
+    --h1_container768px: 30px;
 
-    --size_p440px: 11px;
-    --h1_container440px: 25px;
+    --size_p576px: 12px;
+    --h1_container576px: 25px;
+
+    
+    --size_p460px: 11px;
+    --h1_container460px: 20px;
 }
 
 * {
@@ -671,7 +675,7 @@ nav .logo a img {
 .skills_container,
 .projects_container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .h1_title_About,
@@ -876,7 +880,7 @@ nav .logo a img {
 
 .project_item_container .btn_area .btn {
     font-size: 13px;
-    padding: 8px 12px;
+    padding: 0.8em 1em;
     margin-top: 10px;
 }
 

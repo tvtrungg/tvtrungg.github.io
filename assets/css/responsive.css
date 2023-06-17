@@ -44,12 +44,12 @@
         margin-top: 60px;
     }
 
-    .banner_content .Cnt_info .title_inner h2{
+    .banner_content .Cnt_info .title_inner h2 {
         text-align: center;
         font-size: 48px;
     }
 
-    .banner_content .Cnt_info .title_inner .title_animation{
+    .banner_content .Cnt_info .title_inner .title_animation {
         text-align: center;
     }
 
@@ -72,10 +72,12 @@
 
     }
 
-    .about_education .education_item .languages_item{
+    .about_education .education_item .languages_item {
         width: 200px;
     }
 
+    .skill_item:hover .skill_level,
+    .skill_description,
     .btn_area .btn,
     .banner_content .Cnt_info .description p,
     .banner_content .Cnt_info .btn_area .btn,
@@ -83,6 +85,11 @@
     .banner_about .about_content p,
     .projects_container p {
         font-size: var(--size_p992px);
+    }
+
+    .banner_content .Cnt_info .title_inner .title_animation p,
+    .container h1 {
+        font-size: var(--h1_container992px);
     }
 
     .banner_about .about_content h3 {
@@ -97,15 +104,8 @@
         transform: translateX(115px);
     }
 
-    .banner_content .Cnt_info .title_inner .title_animation p,
-    .container h1 {
-        font-size: var(--h1_container992px);
-    }
-
     /* PROJECT */
-    .banner_projects .projects_coright {
-        flex-basis: 60%;
-    }
+
     .h1_title_Projects {
         margin-bottom: 30px !important;
     }
@@ -137,24 +137,26 @@
     }
 
     /*SKILL*/
-    .skills_container .skill_img{
+    .skills_container .skill_img {
         flex-basis: 60%;
     }
-    .skill_item{
+
+    .skill_item {
         transform: translateY(35px);
         width: 35%;
     }
 
     .skill_item:nth-child(5),
-    .skill_item:nth-child(6){
-        transform: translate(-380px,35px);
+    .skill_item:nth-child(6) {
+        transform: translate(-380px, 35px);
     }
 
     .skill_item:nth-child(7),
-    .skill_item:nth-child(8){
-        transform: translate(0px,-80px);
+    .skill_item:nth-child(8) {
+        transform: translate(0px, -80px);
     }
-    .skill_item:last-child{
+
+    .skill_item:last-child {
         display: none;
     }
 
@@ -165,6 +167,9 @@
         max-width: 720px !important;
     }
 
+    .skill_item:hover .skill_level,
+    .skill_description,
+    .contact_content .contact_item .contact_item_content,
     .btn_area .btn,
     .banner_content .Cnt_info .description p,
     .banner_content .Cnt_info .btn_area .btn,
@@ -172,6 +177,11 @@
     .banner_about .about_content p,
     .projects_container p {
         font-size: var(--size_p768px);
+    }
+
+    .banner_content .Cnt_info .title_inner .title_animation p,
+    .container h1 {
+        font-size: var(--h1_container768px);
     }
 
     .navbar {
@@ -194,12 +204,16 @@
         justify-content: center;
     }
 
+    .follow_area {
+        left: 150px;
+    }
+
     .banner_content .Cnt_img .banner_img {
         width: 300px;
         height: 300px;
     }
 
-    .Ecnt01{
+    .Ecnt01 {
         top: 46px;
         left: 29rem;
     }
@@ -218,6 +232,7 @@
         width: 100%;
         position: relative;
         margin-top: 50px;
+        margin-left: 0px;
     }
 
     .banner_content .Cnt_info .title_inner h2 {
@@ -239,55 +254,63 @@
 
 
     /*EDUCATION*/
-    .banner_about .about_content .about_education{
+    .banner_about .about_content .about_education {
         margin-top: 30px;
     }
-    .about_education .education_item:nth-child(1){
-        transform: translateX(-65px);
-    }
-    .about_education .education_item:nth-child(2){
-        transform: translateX(-85px);
+
+    .about_education {
+        width: 170%;
+        transform: translate(-263px, 30px);
     }
 
-    .about_education .education_item:nth-child(3){
-        transform: translate(-255px, -183px);   
-    }
-
-    .about_education .education_item:last-child{
-        transform: translate(242px, -377px);
-    }
-
-    .education_item .languages_item p:last-child{
-        display: none;
+    .banner_about .about_content .about_education .education_item {
+        flex-basis: 45%;
     }
 
     /*SKILL*/
-    .skill_item{
+    .skill_item {
         width: 42%;
         transform: translateY(0);
+        margin: 0.6em;
     }
+
     .skill_item:nth-child(5),
-    .skill_item:nth-child(6){
-        transform: translate(-340px, 0);
+    .skill_item:nth-child(6) {
+        transform: translate(-325px, 0);
     }
 
     .skill_item:nth-child(7),
-    .skill_item:nth-child(8){
-        transform: translate(0px,-115px);
+    .skill_item:nth-child(8) {
+        transform: translate(0px, -115px);
     }
 
     /*PROJECT*/
-    .project_item_container,
-    .project_item{
+    .project_item_container {
         width: 170px;
+        height: 170px;
+
     }
-    .banner_projects .projects_coright {
-        flex-basis: 60%;
+
+    .project_item {
+        width: 173px;
+        height: 173px;
     }
+
+    .project_item_content p {
+        font-size: 10px;
+    }
+
     .projects_coleft h1,
-    .projects_coleft p{
-        transform: translateY(3x0px);
+    .projects_coleft p {
+        transform: translateY(0px);
     }
+
+    .project_item_container .btn_area .btn {
+        font-size: 12px;
+        padding: 0.5em 0.7em;
+    }
+
+
 }
 
 @media screen and (max-width: 576px) {
@@ -295,9 +318,35 @@
         max-width: 540px !important;
     }
 
+    .skill_item:hover .skill_level,
+    .skill_description,
+    .contact_content .contact_item .contact_item_content,
+    .btn_area .btn,
+    .banner_content .Cnt_info .description p,
+    .banner_content .Cnt_info .btn_area .btn,
+    .follow_area span,
+    .banner_about .about_content p,
+    .projects_container p {
+        font-size: var(--size_p576px);
+    }
+
+    .banner_content .Cnt_info .title_inner .title_animation p,
+    .container h1 {
+        font-size: var(--h1_container576px);
+    }
+
+    section {
+        position: relative;
+        padding: 261px 16px 49px 16px;
+    }
+
     .EImg01 {
         right: 313px;
         top: 319px;
+    }
+
+    .follow_area {
+        left: 100px;
     }
 
     .banner_content .Cnt_img .banner_img {
@@ -305,10 +354,6 @@
         height: 250px;
     }
 
-    section {
-        position: relative;
-        padding: 261px 16px 49px 16px;
-    }
 
     .Ecnt01 img {
         width: 25px;
@@ -325,19 +370,94 @@
     .Ecnt02 img {
         width: 30px;
     }
+
+    /*EDUCATION*/
+    .banner_about .about_content .about_education .education_item {
+        flex-basis: 48%;
+    }
+
+    .about_education {
+        width: 190%;
+        transform: translate(-200px, 0px);
+    }
+
+    /*SKILL*/
+    .skills_container .skill_img {
+        flex-basis: 70%;
+    }
+
+    .skill_item {
+        height: 4.5em;
+    }
+
+    .skill_item:nth-child(7),
+    .skill_item:nth-child(8) {
+        transform: translate(0px, -91px);
+    }
+
+    .skill_item:nth-child(5),
+    .skill_item:nth-child(6) {
+        transform: translate(-252px, 0);
+    }
+
+    /*PROJECT*/
+    .projects_coleft {
+        transform: translateY(30px);
+    }
+
+    .banner_projects .projects_coright {
+        flex-basis: 58%;
+    }
+
+    .project_item_container {
+        width: 130px;
+        height: 165px;
+    }
+
+    .project_item {
+        width: 133px;
+        height: 168px;
+    }
+
+    .project_item_content p {
+        font-size: 10px;
+    }
+
+    .project_item_container .btn_area .btn {
+        font-size: 11px;
+        padding: 0.4em 0.6em;
+    }
+
+    .project_item_content h2 {
+        font-size: 12px;
+    }
+
 }
 
 @media screen and (max-width: 460px) {
     .container {
-        max-width: 380px !important;
+        max-width: 430px !important;
     }
 
     section {
-        padding: 221px 0 49px 0;
+        padding: 210px 20px 50px 40px;
     }
 
-    .banner_content .Cnt_img {
-        justify-content: flex-end;
+    .skill_item:hover .skill_level,
+    .skill_description,
+    .contact_content .contact_item .contact_item_content,
+    .btn_area .btn,
+    .banner_content .Cnt_info .description p,
+    .banner_content .Cnt_info .btn_area .btn,
+    .follow_area span,
+    .banner_about .about_content p,
+    .projects_container p {
+        font-size: var(--size_p460px);
+    }
+
+    .banner_content .Cnt_info .title_inner .title_animation p,
+    .container h1 {
+        font-size: var(--h1_container460px);
     }
 
     .banner_content .Cnt_img .banner_img {
@@ -355,45 +475,15 @@
         top: -84px;
     }
 
-    .banner_content .Cnt_info .title_inner h2 {
-        font-size: 27px;
-    }
-
-    .banner_content .Cnt_info .title_inner .title_animation p {
-        font-size: 22px;
-    }
-
-    .banner_content .Cnt_info .title_inner .title_animation {
-        height: 40px;
-    }
-
-    .banner_content .Cnt_info .description p {
-        font-size: 14px;
-    }
 
     .banner_content .Cnt_info .btn_area .btn {
-        margin: 28px 0px 20px 30px;
-    }
-
-    .btn_area {
-        display: block;
-    }
-
-    .btn_area .btn {
         font-size: 15px;
-    }
-
-    .follow_area span {
-        color: #fff;
-        position: relative;
-        padding-right: 57px;
-        font-size: 15px;
+        margin: 0px;
+        margin-bottom: 10px;
     }
 
     .follow_area {
-        gap: 10px;
-        margin: 20px 0px;
-        left: -53px;
+        left: 0px;
     }
 
     .Ecnt01 {
@@ -418,63 +508,119 @@
         gap: 12px;
     }
 
-    .skill_item:last-child {
-        transform: translateX(0px);
-    }
-
-    .contact_content .contact_item .contact_item_content,
-    .btn_area .btn,
-    .banner_content .Cnt_info .description p,
-    .banner_content .Cnt_info .btn_area .btn,
-    .follow_area span,
-    .banner_about .about_content p,
-    .projects_container p {
-        font-size: var(--size_p440px);
-    }
-
-    .container h1 {
-        font-size: var(--h1_container440px);
-    }
-
-    .skills_container,
-    .about_container {
-        flex-direction: column;
-    }
-
     .banner_about .about_content h2 {
-        font-size: 22px;
+        font-size: 20px;
+        margin-top: 0;
     }
 
-    .banner_about .about_content h3 {
-        font-size: 15px;
+    .banner_about .about_content p {
+        margin: 0px 3px 6px 0;
+    }
+
+    /*EDUCATION*/
+
+
+    .about_education .education_item h3 {
+        margin-bottom: 10px;
+    }
+
+    .banner_about .about_content .about_education .education_item {
+        flex-basis: 49%;
+    }
+
+    .about_education {
+        width: 200%;
+        transform: translate(-170px, 0px);
+    }
+
+    .skill_item {
+        height: 4em;
     }
 
     .about_education .education_item .languages_item {
         width: 150px;
     }
 
-    .banner_about .about_content {
-        flex-basis: 55%;
-    }
-
-    .banner_about .about_content .about_education .education_item {
+    /*SKILL*/
+    .skills_container .skill_content{
         flex-grow: 1;
     }
+    .skills_container .skill_img{
+        display: none;
+    }
+    .skill_item{
+        transform: translate(0px, 0px)!important;
+        width: 6.2em;
+    }
 
-    .skills_container .skill_img,
-    .banner_about .about_img img {
+    .skill_item:last-child{
+        display: block;
+    }
+
+    /*PROJECT*/
+    .skills_container, .projects_container{
+        flex-direction: column;
+    }
+    .banner_projects .projects_coleft{
+        transform: translateY(0px);
+    }
+    .project_item_container {
+        width: 140px;
+        height: 150px;
+    }
+
+    .project_item {
+        width: 143px;
+        height: 153px;
+    }
+
+    .banner_projects .projects_coright{
+        transform: translateY(15px);
+    }
+
+    /*Contact*/
+    .contact_content .contact_item .contact_item_icon i{
+        line-height: 40px;
+        font-size: 18px;
+    }
+
+    .contact_content .contact_item .contact_item_icon{
+        width: 40px;
+        height: 40px;
+    }
+
+    .contact_container .contact_content{
+        justify-items: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .contact_content .contact_item{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+
+
+    .contact_item_content{
+        flex-basis: 80%;
+        text-align: center;
+    }
+    .contact_content .contact_item .contact_item_icon{
+        margin: 0px;
+    }
+
+    .contact_img{
         display: none;
     }
 
-    .banner_about .about_content h2 {
-        text-align: center;
-        background: linear-gradient(25deg, #ff00ea, #2600fc 77%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+    .contact_content_bottom{
+        margin-top: 50px;
     }
 
-    .skill_item{
-        height: 55px;
-        width: 90px;
+    .btn_submitForm{
+        font-size: 13px!important;
     }
+
 }
